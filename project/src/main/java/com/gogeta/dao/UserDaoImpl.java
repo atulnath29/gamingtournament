@@ -16,7 +16,7 @@ public class UserDaoImpl implements UserDao {
             stmt.setString(1, user.getUsername());
             stmt.setString(2, user.getEmail());
             stmt.setString(3, user.getPassword());
-            System.out.println("In DAO Try Try........");
+            System.out.println("In DAO Try Try hii.......");
             
             return stmt.executeUpdate() > 0;
         } catch (SQLException e) {
